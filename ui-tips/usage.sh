@@ -18,3 +18,6 @@ if [ $1 == "-help" ]; then
 	echo "$usage"
 	exit
 fi
+
+echo "Doesn't actually do anything.  This script just shows you how to echo usage and help using comments in the source code!"
+echo "Type \'./usage.sh -help\' to see the script in action."
