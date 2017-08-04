@@ -31,3 +31,14 @@ The issues here are all generally encountered through my profession, with some a
   * No root access
   * Bash / shell scripting via standard Ubuntu terminal
   * tmux, htop, etc...
+
+
+## Scratch Pad
+
+Here's where I dump my stuff real quick as I'm working, to return and flesh out later on.
+
+### PDF to Image, and Back Again
+```bash
+$ cd /home/user/path/to/file
+$ gs -dNOPAUSE -sDEVICE=jpeg -sOutputFile=file.jpg file.pdf
+```
